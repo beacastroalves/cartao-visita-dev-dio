@@ -39,7 +39,7 @@
   height: 1.5rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/assets/img/icons/arrow-top.svg);
+  background-image: url(assets/img/icons/arrow-top.svg);
   translate: 0 4px;
   transition: 0.25s;
 }

@@ -15,7 +15,7 @@ header::after {
   height: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/assets/img/icons/header.svg);
+  background-image: url(assets/img/icons/header.svg);
 }
 
 header .photo {
@@ -57,16 +57,16 @@ header .title {
 }
 
 .information .job::before {
-  background-image: url('/assets/img/icons/job.svg');
+  background-image: url('assets/img/icons/job.svg');
 }
 
 .information .location::before {
-  background-image: url('/assets/img/icons/location.svg');
+  background-image: url('assets/img/icons/location.svg');
 }
 
 
 .information .email::before {
-  background-image: url('/assets/img/icons/email.svg');
+  background-image: url('assets/img/icons/email.svg');
 }
 
 
