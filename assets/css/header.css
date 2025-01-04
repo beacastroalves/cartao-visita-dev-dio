@@ -21,6 +21,7 @@ header::after {
 header .photo {
   width: 200px;
   border-radius: 50%;
+  box-shadow: 2px 2px 20px 4px rgb(22, 1, 80, 0.4);
 }
 
 header .title {
