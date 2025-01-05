@@ -1,0 +1,30 @@
+.portfolio {
+  width: 90%;
+}
+
+.portfolio li .title {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio li .title.github::before {
+  content: '';
+  display: inline-flex;
+  min-width: 16px;
+  min-height: 16px;
+  height: 1rem;
+  width: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/icons/github.svg);
+  margin-right: 0.75rem;
+}
+
+.portfolio li a {
+  color: #ffffffaa;
+  overflow-wrap: anywhere;
+  padding-left: 1.5rem;
+}
+
+
+
