@@ -1,0 +1,22 @@
+.languages {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 4rem;
+  transition: 0.25s;
+}
+
+.languages li {
+  flex-direction: row;
+  align-items: end;
+}
+
+.languages li::before {
+  content: '';
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/icons/check.svg);
+  margin-right: 0.5rem;
+}

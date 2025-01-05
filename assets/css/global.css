@@ -14,7 +14,7 @@ body {
   background: linear-gradient(45deg,  #FEA9AA, #BB44F0, #4314CB, #21007B,  #21007B, #4314CB, #BB44F0, #F974CC);
   background-size: 400% 400%;
 	animation: gradient 18s ease infinite;
-	/* height: 100vh; */
+  min-width: 360px;
 }
 
 main {
@@ -22,7 +22,6 @@ main {
   padding: 1rem;
   border: 1px solid #fff;
   border-radius: 1rem;
-  /* background-color: #00000090; */
   min-height: 95vh;
 }
 
@@ -30,12 +29,76 @@ section {
   margin: 1rem 0;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 95%;
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
 @media only screen and (min-width: 600px){
   main {
-    max-width: 1024px;
+    min-width: 506px;
+    max-width: 90vw;
     margin: 1rem auto;
   }
+}
 
+@media only screen and (min-width: 1024px){
+  main {
+    max-width: 70vw;
+  }
+
+  @media only screen and (min-width: 1440px){
+    main {
+      max-width: 60vw;
+    }
+  }
 }
 
 @keyframes gradient {
