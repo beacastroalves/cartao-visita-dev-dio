@@ -29,6 +29,24 @@ section {
   margin: 1rem 0;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 95%;
+  margin: 0;
+  padding: 1rem;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
 h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -60,25 +78,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 95%;
-  margin: 0;
-  padding: 1rem;
-  list-style: none;
-}
-
-li {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
-}
-
 
 
 @media only screen and (min-width: 600px){
