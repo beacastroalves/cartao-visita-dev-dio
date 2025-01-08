@@ -30,13 +30,8 @@
     align-items: start;
   }
 
-  .frontend,
+ .frontend,
   .backend {
-    width: 50%;
-  }
-
-  .backend ul {
-    min-width: 212px;
     width: 50%;
   }
 }
