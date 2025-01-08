@@ -50,11 +50,7 @@ li {
 h2, h3, h4 {
   margin: 0;
   padding: 0;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 1.5rem;
+  text-align: start;
 }
 
 h3 {
