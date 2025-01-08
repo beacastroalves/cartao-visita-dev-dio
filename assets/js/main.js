@@ -24,7 +24,7 @@ function updateProfileInfo(profileData) {
 
 (async () => {
 
-  const profileData = await fetchProfileData('/data/profile.json')
+  const profileData = await fetchProfileData('./data/profile.json')
   updateProfileInfo(profileData)
 
 })()
