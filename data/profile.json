@@ -1,36 +1,56 @@
 {
-  "name": "Beatriz oashdoahdoaishdioashdCastro",
+  "name": "Beatriz Castro",
   "photo": "https://avatars.githubusercontent.com/u/112479242?v=4",
   "job": "Junior Developer",
   "location": "Bragança - Portugal",
   "email": "beacastro1008@gmail.com",
   "skills": {
-    "hardSkills": [
-      {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-      },
-      {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-      },
-      {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
-      }
-    ],
+    "hardSkills": {
+      "frontend": [
+        {
+          "id": "html",
+          "name": "HTML"
+        },
+        {
+          "id": "css",
+          "name": "CSS"
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript"
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript"
+        },
+        {
+          "id": "angular",
+          "name": "Angular"
+        }
+      ],
+      "backend": [
+        {
+          "id": "java",
+          "name": "Java"
+        },
+        {
+          "id": "springboot",
+          "name": "Spring-Boot"
+        },
+        {
+          "id": "nodejs",
+          "name": "NodeJS"
+        },
+        {
+          "id": "mysql",
+          "name": "MySQL"
+        },
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL"
+        }
+      ]
+    },
     "softSkills": [
       "Empatia",
       "Liderança",
@@ -40,10 +60,15 @@
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Português",
+    "Inglês",
+    "Espanhol"
+  ],
+  "education": [
+    {
+      "title": "Sistemas de Informação - Faculdade Estácio",
+      "period": "2020 - 2025"
+    }
   ],
   "portfolio": [
     {
@@ -57,21 +82,21 @@
       "github": true
     }
   ],
-  "professionalExperience": [
+  "professionalExperiences": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Analista de Implantação | Grupo Boticário | Remoto",
+      "period": "Julho 2022 - Fevereiro 2024",
+      "description": "Planejamento e execução das configurações da retaguarda dos softwares Varejofácil e SysPDV para lojas do Grupo Boticário; Implementação de atividades e revisão da documentação; Repasse de informações, demandas e organização dos franqueados para o time de configuração executar as atividades e efetuar as entregas; Capacitação e acompanhamento dos analistas dentro das suas demandas. Ponte no contato direto entre o time e o franqueado; Apoio ao time de migração de dados. Identificação de inconsistências e reporte junto ao desenvolvimento para a implementação de melhorias ou correção de bugs. Trabalhar com metodologias ágil na integração de sistemas."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Analista de Implantação | Grupo Casa Magalhães | Fortaleza CE - Brasil",
+      "period": "Maio 2021 - Junho 2022",
+      "description": "Planejamento e execução das configurações da retaguarda dos softwares Varejofácil e SysPDV. Identificação de inconsistências e reporte junto ao desenvolvimento para a implementação de melhorias ou correção de bugs. Capacitação dos novos analistas da equipe para entendimento das rotinas iniciais. Trabalhar com metodologias ágil na integração de sistemas."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Estagiária de Implantação de Sistemas | Grupo Casa Magalhães | Fortaleza CE - Brasil",
+      "period": "Janeiro 2021 - Maio 2021",
+      "description": "Instrutora do sistema SysPDV e VarejoFacil (ERP). Capacitação dos novos cliente na utilização do sistema. Parametrização, e implantação em empresas contratantes de diversos ramos, varejo, atacadista, supermercados, etc. Domínio nas rotinas do sistema como: cadastro de produtos, emissão de documentos fiscais, análise de relatórios financeiros, estoque e venda."
     }
   ]
 }

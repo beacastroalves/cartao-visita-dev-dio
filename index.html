@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="assets/css/header.css">
   <link rel="stylesheet" href="assets/css/acordeon.css">
   <link rel="stylesheet" href="assets/css/skills.css">
+  <link rel="stylesheet" href="assets/css/softSkills.css">
   <link rel="stylesheet" href="assets/css/languages.css">
   <link rel="stylesheet" href="assets/css/education.css">
   <link rel="stylesheet" href="assets/css/portfolio.css">
@@ -42,56 +43,47 @@
       </div>
     </header>
 
-    <section class="acordeon ">
+    <section class="acordeon open">
       <button class="trigger" type="button">
-        <h2>Habilidades</h2>
+        <h2>Habilidades Técnicas</h2>
       </button>
 
       <div class="content">
         <div class="skills">
           <section class="frontend">
             <h3>Front-End:</h3>
-            <ul>
+            <ul id="profile.skills.hardskills.frontend">
               <li>
-                <img id="html" src="./assets/img/icons/html.svg" alt="simbolo do html" title="HTML">
-              </li>
-              <li>
-                <img id="css" src="./assets/img/icons/css.svg" alt="simbolo do css" title="CSS">
-              </li>
-              <li>
-                <img src="./assets/img/icons/javascript.svg" alt="simbolo do javascript" title="JavaScript">
-              </li>
-              <li>
-                <img src="./assets/img/icons/typescript.svg" alt="simbolo do typescript" title="TypeScript">
-              </li>
-              <li>
-                <img src="./assets/img/icons/angular.svg" alt="simbolo do angular" title="Angular">
+                Carregando...
               </li>
             </ul>
           </section>
 
           <section class="backend">
             <h3>Back-End:</h3>
-            <ul>
+            <ul id="profile.skills.hardskills.backend">
               <li>
-                <img src="./assets/img/icons/java.svg" alt="simbolo do java" title="Java">
-              </li>
-              <li>
-                <img src="./assets/img/icons/springboot.svg" alt="simbolo do spring-boot" title="Spring-Boot">
-              </li>
-              <li>
-                <img src="./assets/img/icons/nodejs.svg" alt="simbolo do node js" title="NodeJS">
-              </li>
-              <li>
-                <img src="./assets/img/icons/mysql.svg" alt="simbolo do mysql" title="MySQL">
-              </li>
-              <li>
-                <img src="./assets/img/icons/postgresql.svg" alt="simbolo do postgresql" title="PostgreSQL">
+                Carregando...
               </li>
             </ul>
           </section>
 
         </div>
+      </div>
+    </section>
+    <!-- To-do -->
+
+    <section class="acordeon ">
+      <button class="trigger" type="button">
+        <h2>Habilidades Pessoais</h2>
+      </button>
+
+      <div class="content">
+        <ul id="profile.skills.softSkills" class="softSkills">
+          <li>
+            Carregando...
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -101,10 +93,8 @@
       </button>
 
       <div class="content">
-        <ul class="languages">
-          <li>Português</li>
-          <li>Inglês</li>
-          <li>Espanhol</li>
+        <ul id="profile.languages" class="languages">
+          <li>Carregando...</li>
         </ul>
       </div>
     </section>
@@ -115,7 +105,7 @@
       </button>
 
       <div class="content">
-        <ul class="education">
+        <ul  id="profile.education" class="education">
           <li>
             <h3 class="title">Sistemas de Informação - Faculdade Estácio</h3>
             <h4 class="period college">2020 - 2025</h4>
@@ -160,27 +150,13 @@
         <h2>Experiencias Profissionais</h2>
       </button>
 
-      <div class="content experiences">
-        <ul class="experience">
+      <div class="content">
+        <ul id="profile.professionalExperiences" class="experience">
           <li>
-            <h3 class="title">Analista de Implantação | Grupo Boticário | Remoto</h3>
-            <span class="period">Julho 2022 - Fevereiro 2024</span>
-            <p>
-              Planejamento e execução das configurações da retaguarda dos softwares Varejofácil e SysPDV para lojas do Grupo Boticário; Implementação de atividades e revisão da documentação; Repasse de informações, demandas e organização dos franqueados para o time de configuração executar as atividades e efetuar as entregas; Capacitação e acompanhamento dos analistas dentro das suas demandas. Ponte no contato direto entre o time e o franqueado; Apoio ao time de migração de dados. Identificação de inconsistências e reporte junto ao desenvolvimento para a implementação de melhorias ou correção de bugs. Trabalhar com metodologias ágil na integração de sistemas.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Analista de Implantação | Grupo Casa Magalhães | Fortaleza CE - Brasil</h3>
-            <h4 class="period">Maio 2021 - Junho 2022</h4>
-            <p>
-              Planejamento e execução das configurações da retaguarda dos softwares Varejofácil e SysPDV. Identificação de inconsistências e reporte junto ao desenvolvimento para a implementação de melhorias ou correção de bugs. Capacitação dos novos analistas da equipe para entendimento das rotinas iniciais. Trabalhar com metodologias ágil na integração de sistemas.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Estagiária de Implantação de Sistemas | Grupo Casa Magalhães | Fortaleza CE - Brasil</h3>
-            <h4 class="period">Janeiro 2021 - Maio 2021</h4>
-            <p>
-              Instrutora do sistema SysPDV e VarejoFacil (ERP). Capacitação dos novos cliente na utilização do sistema. Parametrização, e implantação em empresas contratantes de diversos ramos, varejo, atacadista, supermercados, etc. Domínio nas rotinas do sistema como: cadastro de produtos, emissão de documentos fiscais, análise de relatórios financeiros, estoque e venda.
+            <h3 id="profile.professionalExperiences.name" class="title">Carregando...</h3>
+            <span id="profile.professionalExperiences.period" class="period">Carregando...</span>
+            <p id="profile.professionalExperiences.description">
+              Carregando...
             </p>
           </li>
         </ul>
