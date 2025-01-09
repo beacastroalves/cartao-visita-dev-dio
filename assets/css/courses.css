@@ -1,0 +1,51 @@
+.courses {
+  width: 95%;
+}
+
+.courses li .title {
+  display: flex;
+  align-items: center;
+}
+
+.courses li .title::before {
+  content: '';
+  display: inline-flex;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/icons/certificate.svg);
+  margin-right: 0.75rem;
+}
+
+.courses li  .title.dio::before {
+  content: '';
+  display: inline-flex;
+  align-items: center;
+  min-width: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/icons/dio.svg);
+  margin-right: 0.75rem;
+}
+
+.courses li a {
+  color: #ffffffaa;
+  overflow-wrap: anywhere;
+  padding-left: 2.2rem;
+}
+
+@media only screen and (min-width: 850px){
+  .courses li .title {
+    align-items: flex-start;
+  }
+
+  .courses li .title.dio {
+    align-items: flex-end;
+  }
+}
+
+

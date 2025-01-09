@@ -70,16 +70,43 @@
       "period": "2020 - 2025"
     }
   ],
-  "portfolio": [
+  "courses": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
+      "title": "Formação CSS Web Developer",
+      "certificate": "https://hermes.dio.me/certificates/G50OISCC.pdf",
+      "dio": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
+      "title": "Formação Lógica de Programação",
+      "certificate": "https://hermes.dio.me/certificates/YFRF3PTK.pdf",
+      "dio": true
+    },
+    {
+      "title": "JavaScript para Web: Fundamentos de HTML, CSS e APIs na Prática",
+      "certificate": "https://hermes.dio.me/certificates/F5SVNGKE.pdf",
+      "dio": true
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Jogo da Memória - Natalino",
+      "url": "https://beacastroalves.github.io/jogo-da-memoria-natalino/"
+    },
+    {
+      "name": "PokeDex com JavaScript",
+      "url": "https://beacastroalves.github.io/pokedex-com-javascript/"
+    },
+    {
+      "name": "Jogo do Detona Ralph - Lógica de Programação",
+      "url": "https://beacastroalves.github.io/jogo-detona-ralph/"
+    },
+    {
+      "name": "Pagina de Contabilidade Usando Bootstrap - Trilha de CSS",
+      "url": "https://beacastroalves.github.io/iniciando-com-bootstrap/"
+    },
+    {
+      "name": "Landing page de uma página de Contabilidade - Trilha de CSS",
+      "url": "https://beacastroalves.github.io/trilha-css-desafio-05/"
     }
   ],
   "professionalExperiences": [
