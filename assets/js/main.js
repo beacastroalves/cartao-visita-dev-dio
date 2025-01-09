@@ -76,8 +76,6 @@ function updateProfessionalExperience(profileData) {
 
   const profileData = await fetchProfileData('./data/profile.json')
   updateProfileInfo(profileData)
-  // updateHardSkills(profileData, 'frontend')
-  // updateHardSkills(profileData, 'backend')
   updateHardSkills(profileData)
   updateSoftSkills(profileData)
   updateLanguages(profileData)
