@@ -62,10 +62,12 @@ function updateCourses(profileData) {
   const courses = document.getElementById('profile.courses')
 
   courses.innerHTML = profileData.courses.map(course => {
+    const tokens = course.certificate.split('/');
+    const fileName = tokens[tokens.length - 1]
     return `
       <li>
         <h3 class="title ${course.dio ? 'dio' : ''}">${course.title}</h3>
-        <a href="${course.certificate}" target="_blank">${course.certificate}</a>
+        <a href="${course.certificate}" target="_blank">${fileName}</a>
       </li>
     `
   }).join('')
