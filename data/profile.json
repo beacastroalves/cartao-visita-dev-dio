@@ -125,5 +125,22 @@
       "period": "Janeiro 2021 - Maio 2021",
       "description": "Instrutora do sistema SysPDV e VarejoFacil (ERP). Capacitação dos novos cliente na utilização do sistema. Parametrização, e implantação em empresas contratantes de diversos ramos, varejo, atacadista, supermercados, etc. Domínio nas rotinas do sistema como: cadastro de produtos, emissão de documentos fiscais, análise de relatórios financeiros, estoque e venda."
     }
+  ],
+  "contact": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/beacastroalves",
+      "type": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/beatrizdecastroalves",
+      "type": "linkedin"
+    },
+    {
+      "name": "Dio.me",
+      "url": "https://www.dio.me/users/beacastro23",
+      "type": "dio"
+    }
   ]
 }

@@ -101,8 +101,21 @@ function updateProfessionalExperience(profileData) {
       </li>
     `
   }).join('')
+}
 
+function updateContacts(profileData) {
+  const contacts = document.getElementById('profile.contact')
 
+  contacts.innerHTML = profileData.contact.map(contact => {
+    const tokens = contact.url.split('/');
+    const fileName = tokens[tokens.length - 1];
+    return `
+    <li>
+      <h3 class="title ${contact.type}">${contact.name}</h3>
+      <a href="${contact.url}" target="_blank" title="Perfil ${contact.name}">@${fileName}</a>
+    </li>
+    `
+  }).join('')
 }
 
 (async () => {
@@ -116,5 +129,6 @@ function updateProfessionalExperience(profileData) {
   updateCourses(profileData)
   updatePortfolio(profileData)
   updateProfessionalExperience(profileData)
+  updateContacts(profileData)
 
 })()
