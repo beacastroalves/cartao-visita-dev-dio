@@ -72,8 +72,8 @@
   ],
   "courses": [
     {
-      "title": "Formação CSS Web Developer",
-      "certificate": "https://hermes.dio.me/certificates/G50OISCC.pdf",
+      "title": "Formação JavaScript Developer",
+      "certificate": "https://hermes.dio.me/certificates/C5FSWJD5.pdf",
       "dio": true
     },
     {
@@ -82,8 +82,8 @@
       "dio": true
     },
     {
-      "title": "JavaScript para Web: Fundamentos de HTML, CSS e APIs na Prática",
-      "certificate": "https://hermes.dio.me/certificates/F5SVNGKE.pdf",
+      "title": "Formação CSS Web Developer",
+      "certificate": "https://hermes.dio.me/certificates/G50OISCC.pdf",
       "dio": true
     }
   ],
