@@ -2,11 +2,6 @@
   width: 90%;
 }
 
-.portfolio li .title {
-  display: flex;
-  align-items: center;
-}
-
 .portfolio li .title.github::before {
   content: '';
   display: inline-flex;
@@ -21,10 +16,5 @@
 }
 
 .portfolio li a {
-  color: #ffffffaa;
-  overflow-wrap: anywhere;
   padding-left: 1.7rem;
 }
-
-
-

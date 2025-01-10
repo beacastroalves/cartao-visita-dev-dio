@@ -2,11 +2,6 @@
   width: 95%;
 }
 
-.courses li .title {
-  display: flex;
-  align-items: center;
-}
-
 .courses li .title::before {
   content: '';
   display: inline-flex;
@@ -32,12 +27,6 @@
   margin-right: 0.75rem;
 }
 
-.courses li a {
-  color: #ffffffaa;
-  overflow-wrap: anywhere;
-  padding-left: 2.2rem;
-}
-
 @media only screen and (min-width: 850px){
   .courses li .title {
     align-items: flex-start;
@@ -47,5 +36,3 @@
     align-items: flex-end;
   }
 }
-
-

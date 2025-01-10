@@ -1,6 +1,4 @@
 .experience li .period {
-  display: flex;
-  align-items: center;
   font-style: italic;
 }
 
@@ -16,4 +14,3 @@
   background-image: url(../img/icons/calender.svg);
   margin-right: 0.75rem;
 }
-

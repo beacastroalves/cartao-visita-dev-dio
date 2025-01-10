@@ -1,8 +1,3 @@
-.contact li .title {
-  display: flex;
-  align-items: center;
-}
-
 .contact li .title.dio {
   align-items: flex-end;
 }
@@ -44,12 +39,3 @@
   background-image: url(../img/icons/dio.svg);
   margin-right: 0.75rem;
 }
-
-.contact li a {
-  color: #ffffffaa;
-  overflow-wrap: anywhere;
-  padding-left: 2.2rem;
-}
-
-
-

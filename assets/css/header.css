@@ -45,6 +45,10 @@ header .title {
   text-decoration: none;
 }
 
+.information a {
+  color: #fff;
+  padding: 0;
+}
 
 .information p::before {
   content: '';
@@ -63,7 +67,6 @@ header .title {
 .information .location::before {
   background-image: url('../img/icons/location.svg');
 }
-
 
 .information .email::before {
   background-image: url('../img/icons/email.svg');
@@ -95,5 +98,4 @@ header .title {
     gap: 0 3rem;
     justify-content: center;
   }
-
 }
