@@ -14,7 +14,6 @@ body {
   background: linear-gradient(45deg,  #FEA9AA, #BB44F0, #4314CB, #21007B,  #21007B, #4314CB, #BB44F0, #F974CC);
   background-size: 400% 400%;
 	animation: gradient 18s ease infinite;
-  min-width: 360px;
 }
 
 main {
@@ -59,6 +58,10 @@ h2, h3, h4 {
   text-align: start;
 }
 
+h2 {
+  font-size: 1.25rem;
+}
+
 h3 {
   font-weight: 700;
   font-size: 1.125rem;
@@ -89,6 +92,10 @@ a:hover {
     min-width: 506px;
     max-width: 90vw;
     margin: 1rem auto;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }
 
