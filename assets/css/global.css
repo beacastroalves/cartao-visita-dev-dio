@@ -12,8 +12,13 @@ body {
   background-color: #000;
   color: #fff;
   background-color: #00357b;
-  /* background: linear-gradient(45deg,  #FEA9AA, #BB44F0, #4314CB, #21007B,  #00357b, #4314CB, #BB44F0, #F974CC); */
   background-size: 200% 200%;
+}
+
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 main {
