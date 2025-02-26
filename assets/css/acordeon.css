@@ -10,8 +10,9 @@
 
 .acordeon.open,
 .acordeon:hover {
-  background-color: #160150;
-  border-color: #160150;
+  background-color: #8fbaf1;
+  background-color: #001633;
+  border-color: #001633;
 }
 
 .acordeon .trigger {

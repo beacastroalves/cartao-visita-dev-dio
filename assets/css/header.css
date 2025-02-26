@@ -6,22 +6,10 @@ header {
   padding-bottom: 4rem;
 }
 
-header::after {
-  content: '';
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 2rem;
-  height: 2rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(../img/icons/header.svg);
-}
-
 header .photo {
-  width: 200px;
+  width: 180px;
   border-radius: 50%;
-  box-shadow: 2px 2px 20px 4px rgb(22, 1, 80, 0.4);
+  box-shadow: 2px 2px 20px 4px rgba(0, 22, 51, 0.4);
 }
 
 header .title {
@@ -40,7 +28,7 @@ header .title {
   display: inline-flex;
   align-items: center;
   margin: 0.25rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #fff;
   text-decoration: none;
 }
@@ -57,7 +45,7 @@ header .title {
   height: 1rem;
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 0.25rem;
+  margin-right: 0.5rem;
 }
 
 .information .job::before {
@@ -72,8 +60,11 @@ header .title {
   background-image: url('../img/icons/email.svg');
 }
 
+@media only screen and (min-width: 600px) {
 
-@media only screen and (min-width: 600px){
+}
+
+@media only screen and (min-width: 600px) {
   header .photo {
     grid-area: photo;
     margin: 0 auto;

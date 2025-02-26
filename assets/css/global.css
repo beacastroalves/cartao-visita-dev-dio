@@ -11,17 +11,16 @@
 body {
   background-color: #000;
   color: #fff;
-  background: linear-gradient(45deg,  #FEA9AA, #BB44F0, #4314CB, #21007B,  #21007B, #4314CB, #BB44F0, #F974CC);
-  background-size: 400% 400%;
-	animation: gradient 18s ease infinite;
+  background-color: #00357b;
+  /* background: linear-gradient(45deg,  #FEA9AA, #BB44F0, #4314CB, #21007B,  #00357b, #4314CB, #BB44F0, #F974CC); */
+  background-size: 200% 200%;
 }
 
 main {
-  margin: 1rem;
+  margin-top: 1rem;
   padding: 1rem;
-  border: 1px solid #fff;
   border-radius: 1rem;
-  min-height: 95vh;
+  min-width: 95vw;
 }
 
 section {
@@ -92,6 +91,7 @@ a:hover {
     min-width: 506px;
     max-width: 90vw;
     margin: 1rem auto;
+    border: 1px solid #fff;
   }
 
   h2 {
