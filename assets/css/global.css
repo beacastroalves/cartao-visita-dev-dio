@@ -12,12 +12,10 @@ body {
   background-color: #000;
   color: #fff;
   background-color: #00357b;
-
   background-image: url(../img/background.png);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 
@@ -32,9 +30,7 @@ main {
   padding: 1rem;
   border-radius: 1rem;
   min-width: 95vw;
-  /* background-image: url(../img/background.png); */
 }
-
 
 section {
   margin: 1rem 0;
